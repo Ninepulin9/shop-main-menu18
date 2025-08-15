@@ -25,6 +25,7 @@
 
         .card-title {
             font-size: 15px;
+            color: white;
         }
 
         .btn-gray-left {
@@ -204,7 +205,6 @@
 
             <div class="row justify-content-center gap-3">
                 @foreach ($menu as $rs)
-                    <!-- Card -->
                     <div class="col-5 g-0 product-card" style="border-radius: 10px;" data-id="{{ $rs['id'] }}">
                         <div class="row g-0 flex-column">
                             <div class="col">
@@ -303,6 +303,7 @@
                                     placeholder="ระบุรายละเอียดคำขอ (ขึ้นอยู่กับดุลยพินิจของร้าน)"></textarea>
                             </div>
 
+                            <!-- ข้อความแจ้งเตือนในโหมดดูเมนู -->
                             <div class="text-center mt-4 mb-4">
                                 <div class="alert alert-info">
                                     <i class="fa-solid fa-info-circle me-2"></i>
